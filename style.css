@@ -1,0 +1,110 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Lato", sans-serif;
+}
+/*                  */
+/* Background Image */
+/*                  */
+
+.common{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+.first-page{
+    background-image: url(./img/bg.jpg);
+    height: 100%;
+    
+}
+
+.second-page{
+    
+    background-image: url(./img/bg2.jpg);
+    height: 80%;
+
+}
+
+.thirth-page{
+
+    background-image: url(./img/bg3.jpg);
+    height: 80%;
+    
+}
+.fourth-page{
+
+    background-image: url(./img/bg4.jpg);
+    height: 80%;
+
+}
+.fifth-page{
+
+    background-image: url(./img/bg1.jpg);
+    height: 100%;
+
+}
+
+/*                  */
+/*    Div header    */
+/*                  */
+
+.container{
+    
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+.header{
+
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+    outline: 0.5rem inset purple;
+    outline-offset: 0.6rem;
+    
+}
+
+.option1{
+    text-transform: uppercase;
+}
+
+.option2{
+
+    text-transform: capitalize;
+}
+.logo{
+
+    width: 20rem;
+}
+
+.part {
+    text-align: center;
+    padding: 3rem 5rem;
+    line-height: 1.8rem;
+}
+
+.part-light{
+    background-color: rgb(241, 241, 241);
+    color: #666;
+}
+
+.part-dark{
+
+    background-color: #282E34;
+    color: #ddd;
+
+}
