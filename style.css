@@ -55,7 +55,7 @@ body,html {
 /*                  */
 
 .container{
-    
+
     text-align: center;
     position: relative;
     top: 45%;
@@ -73,18 +73,22 @@ body,html {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 
-    outline: 0.5rem inset purple;
-    outline-offset: 0.6rem;
+    /* outline: 0.5rem inset purple;
+    outline-offset: 0.6rem; */
     
 }
 
 .option1{
     text-transform: uppercase;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.6rem;
 }
 
 .option2{
 
     text-transform: capitalize;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.2rem;
 }
 .logo{
 
